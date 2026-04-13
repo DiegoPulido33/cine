@@ -13,5 +13,5 @@ import { MenuComponent } from './menu/menu.component';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Ejemplo1';
+  title = 'Cartelera Cines DPR';
 }

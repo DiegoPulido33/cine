@@ -1,59 +1,100 @@
-# Cine10de10Recuperado
+# Cine10de10 — Movie & Series Showcase
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.7.
+A personal academic project originally built during my Web Application Development degree and later **recovered + modernized to Angular 21** as part of my engineering portfolio.
 
-## Development server
+The application simulates a **cinema-style showcase platform** where users can browse curated movies and TV series, flip cards for interactive previews, and navigate to detailed content pages with descriptions, directors, ratings, and release information.
 
-To start a local development server, run:
+This project is especially meaningful as it reflects both:
+- my early frontend foundations
+- my current ability to **recover legacy codebases and migrate them to modern Angular architecture**
+
+---
+
+## Project Overview
+
+Main features included in the app:
+
+- Movie showcase
+- TV series showcase
+- Interactive flip-card UI
+- Detail pages by dynamic route
+- Routing with Angular Router
+- Data service layer with observables
+- Responsive visual layout
+- Standalone Angular components
+- SSR-compatible modern Angular setup
+
+---
+
+## Tech Stack
+
+- Angular 21
+- TypeScript
+- RxJS
+- Angular Router
+- Angular Standalone Components
+- CSS
+- Node.js
+
+---
+
+## Why this project matters
+
+This repository is part of my portfolio because it demonstrates an interesting engineering exercise:
+
+> Recovering a 2-year-old academic Angular project from partial source files, rebuilding the missing project structure, and migrating it to the latest Angular standalone architecture.
+
+The recovery process involved:
+
+- rebuilding the Angular root structure
+- restoring missing configuration files
+- migrating from legacy module patterns
+- adapting components to standalone architecture
+- fixing SSR bootstrap issues
+- updating routing compatibility
+- resolving strict TypeScript template issues
+- preparing the codebase for modern GitHub portfolio presentation
+
+This turns a student project into a **real-world legacy modernization case study**.
+
+---
+
+## Run locally
 
 ```bash
-ng serve
+npm install
+npm start
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Then open:
 
-## Code scaffolding
+```text
+http://localhost:4200
+```
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+---
+
+## Build
 
 ```bash
-ng generate component component-name
+npm run build
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
-```
+## Portfolio context
 
-## Building
+This project is showcased as part of my immersive software engineering portfolio, highlighting:
 
-To build the project run:
+- frontend foundations
+- UI interaction design
+- Angular architecture evolution
+- legacy modernization skills
+- engineering storytelling
 
-```bash
-ng build
-```
+---
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## Author
 
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+**Diego Pulido Rivero**  
+Software Engineer focused on product thinking, immersive interfaces, frontend architecture, and modern full-stack systems.
