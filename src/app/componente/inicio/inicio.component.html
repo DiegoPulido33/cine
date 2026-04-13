@@ -1,0 +1,26 @@
+<div class="contenedor">
+  <h2>Películas</h2>
+  <div class="cartelera">
+    <div *ngFor="let pelicula of peliculas" class="mini-pelicula">
+      <a [routerLink]="['/contenido-pelicula', pelicula.id]"> <!-- Enlace a la página de películas -->
+        <img src="{{ pelicula.imagen }}" alt="{{ pelicula.titulo }}" class="mini-poster">
+        <div class="info">
+          <h3 class="nombre" [innerHTML]="pelicula.titulo"></h3>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <h2>Series</h2>
+  <div class="cartelera">
+    <div *ngFor="let serie of series" class="mini-pelicula">
+      <!-- Redirecciona a la página de series -->
+      <a [routerLink]="['/contenido-serie', serie.id]">
+        <img src="{{ serie.imagen }}" alt="{{ serie.titulo }}" class="mini-poster">
+        <div class="info">
+          <h3 class="nombre" [innerHTML]="serie.titulo"></h3>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>

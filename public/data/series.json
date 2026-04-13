@@ -1,0 +1,90 @@
+[
+  {
+    "id": 9,
+    "titulo": "Los anillos del Poder",
+    "director": "J.A. Bayona",
+    "estreno": "2022",
+    "imagen": "/Imagen/series/RingsOfPower.webp",
+    "sinopsis": "Ambientada miles de años antes de 'El Señor de los Anillos', esta serie explora la forja de los Anillos de Poder y el ascenso del Señor Oscuro Sauron. A medida que diferentes reinos se enfrentan a nuevas amenazas y alianzas se forman, se revela la historia de la Tierra Media y los eventos que darán forma a su futuro.",
+    "plataforma": "Prime Video",
+    "puntuacion": 7.5,
+    "temporadas": 2
+  },
+  {
+    "id": 10,
+    "titulo": "The Mandalorian",
+    "director": "Jon Favreau",
+    "estreno": "2019",
+    "imagen": "/Imagen/series/TheMandalorian.webp",
+    "sinopsis": "Ambientada en el universo de Star Wars, la serie sigue a un cazarrecompensas solitario conocido como 'Mando' en sus aventuras después de la caída del Imperio. A lo largo de su viaje, se encuentra con un misterioso niño llamado Grogu, lo que lo lleva a cuestionar su misión y su vida como cazarrecompensas en un mundo caótico.",
+    "plataforma": "Prime Video",
+    "puntuacion": 8.8,
+    "temporadas": 3
+  },
+  {
+    "id": 11,
+    "titulo": "Peaky Blinders",
+    "director": "Steven Knight",
+    "estreno": "2013",
+    "imagen": "/Imagen/series/Peaky_Blinders.jpg",
+    "sinopsis": "Esta serie dramática sigue a la familia Shelby, una poderosa y ambiciosa pandilla en Birmingham, Inglaterra, durante la década de 1920. Liderados por el astuto Thomas Shelby, los Peaky Blinders se involucran en el mundo del crimen organizado mientras buscan expandir su influencia y luchar contra sus enemigos.",
+    "plataforma": "Netflix",
+    "puntuacion": 9.0,
+    "temporadas": 6
+  },
+  {
+    "id": 12,
+    "titulo": "Juego de Tronos",
+    "director": "David Benioff, D.B. Weiss",
+    "estreno": "2011",
+    "imagen": "/Imagen/series/GameofThrones.webp",
+    "sinopsis": "Basada en la serie de novelas 'Canción de hielo y fuego' de George R. R. Martin, esta serie épica sigue las luchas de varias familias nobles por el control del Trono de Hierro en el continente de Westeros. Con intrigas políticas, batallas épicas y dragones, la serie explora temas de poder, lealtad y traición en un mundo medieval lleno de fantasía.",
+    "plataforma": "Prime Video",
+    "puntuacion": 9.3,
+    "temporadas": 14
+  },
+  {
+    "id": 13,
+    "titulo": "Breaking Bad",
+    "director": "Vince Gilligan",
+    "estreno": "2008",
+    "imagen": "/Imagen/series/BreakingBad.webp",
+    "sinopsis": "La serie sigue la transformación de Walter White, un profesor de química que, tras ser diagnosticado con cáncer, se convierte en un fabricante de metanfetaminas para asegurar el futuro financiero de su familia. A medida que se adentra en el mundo del crimen, Walter se enfrenta a dilemas morales y consecuencias imprevistas que amenazan a sus seres queridos.",
+    "plataforma": "Netflix",
+    "puntuacion": 9.5,
+    "temporadas": 5
+  },
+  {
+    "id": 14,
+    "titulo": "Prison Break",
+    "director": "Paul Scheuring",
+    "estreno": "2005",
+    "imagen": "/Imagen/series/prison.jpg",
+    "sinopsis": "La historia sigue a Michael Scofield, un hombre que se infiltra en una prisión para ayudar a su hermano, condenado a muerte por un crimen que no cometió. Con un plan meticulosamente elaborado, Michael busca liberar a su hermano y enfrentarse a la conspiración que lo encarceló, mientras lidia con una serie de desafíos y adversidades.",
+    "plataforma": "Netflix",
+    "puntuacion": 8.3,
+    "temporadas": 5
+  },
+  {
+    "id": 15,
+    "titulo": "Stranger Things",
+    "director": "Duffer Brothers",
+    "estreno": "2016",
+    "imagen": "/Imagen/series/StrangerThings.jpg",
+    "sinopsis": "Ambientada en la década de 1980, esta serie de ciencia ficción sigue a un grupo de niños en el pequeño pueblo de Hawkins, Indiana, que se enfrenta a fenómenos sobrenaturales. Tras la desaparición de uno de ellos, el grupo descubre una niña con habilidades psíquicas y se ve envuelto en una serie de eventos que involucran experimentos secretos y dimensiones paralelas.",
+    "plataforma": "Netflix",
+    "puntuacion": 8.7,
+    "temporadas": 5
+  },
+  {
+    "id": 16,
+    "titulo": "El Pingüino",
+    "director": "Matt Reeves",
+    "estreno": "2023",
+    "imagen": "/Imagen/series/Pinguino.jpg",
+    "sinopsis": "La serie se centra en el personaje de Oswald Cobblepot, conocido como el Pingüino, en el universo de Gotham. La trama sigue su ascenso en el mundo criminal de la ciudad mientras navega por intrigas, traiciones y alianzas inusuales, explorando su transformación de un delincuente menor a uno de los villanos más icónicos de Gotham.",
+    "plataforma": "HBO",
+    "puntuacion": 7.8,
+    "temporadas": 1
+  }
+]

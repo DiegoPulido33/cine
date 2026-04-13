@@ -1,0 +1,75 @@
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 20px 0;
+  padding: 10px;
+  color: #ffffff;
+  background: linear-gradient(90deg, #ff6b6b, #fddb3a);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.3);
+  letter-spacing: 2px;
+  animation: gradient 5s ease-in-out infinite;
+  font-weight: bold;
+}
+
+.nombre, .titulo {
+  font-size: 1rem;           
+  font-weight: bold;           
+  color: #333;                 
+  margin: 10px 0;             
+  text-align: center;          
+  transition: color 0.3s, transform 0.3s;  
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3); 
+}
+
+
+
+/* Efecto hover en el título */
+.nombre:hover, .titulo:hover {            
+  transform: scale(1.25);      
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); 
+}
+/* Animación para el gradiente */
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+.contenedor {
+  padding: 20px;
+}
+
+.cartelera {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.mini-pelicula {
+  background-color: white;
+  width: 150px; /* Reducir el tamaño de las miniaturas */
+  margin: 10px;
+  text-align: center;
+}
+
+.mini-pelicula a{
+  text-decoration: none;
+}
+
+.mini-poster {
+  width: 100%;
+  height: 200px; /* Ajustar la altura para que se vea en miniatura */
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+h4 {
+  font-size: 16px;
+  margin-top: 10px;
+}

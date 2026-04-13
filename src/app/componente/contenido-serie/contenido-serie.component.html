@@ -1,0 +1,16 @@
+<div class="contenido-serie">
+    <div *ngIf="serie;" class="serie-detalle">
+      <div class="poster">
+        <img [src]="serie.imagen" [alt]="serie.titulo" />
+      </div>
+      <div class="info">
+        <h1 class="titulo" [innerHTML]="serie.titulo"></h1>
+        <p class="director"><strong>Director:</strong> {{ serie.director }}</p>
+        <p class="estreno"><strong>Año de estreno:</strong> {{ serie.estreno }}</p>
+        <p class="sinopsis"><strong>Sinopsis:</strong> {{ serie.sinopsis }}</p>
+        <p class="temporadas"><strong>Temporadas:</strong> {{ serie.temporadas }}</p>
+        <p class="puntuacion"><strong>Puntuación:</strong> {{ serie.puntuacion }}/10</p>
+      </div>
+    </div>
+  
+ 

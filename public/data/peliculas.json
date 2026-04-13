@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "titulo": "El Hobbit<br> La batalla de los cinco ejércitos",
+    "director": "Peter Jackson",
+    "estreno": "2014",
+    "imagen": "/Imagen/peliculas/Hobbit5.JPG.webp",
+    "sinopsis": "En el desenlace de la trilogía de 'El Hobbit', Bilbo Bolsón se encuentra en el centro de un conflicto monumental cuando Thorin Escudo de Roble y su compañía de enanos, tras haber reclamado la Montaña Solitaria y su tesoro, deben enfrentarse a fuerzas de la oscuridad. La llegada de un antiguo enemigo, Smaug, desata una serie de conflictos entre enanos, elfos y hombres, que culminan en la Batalla de los Cinco Ejércitos, donde Bilbo deberá decidir dónde radica su lealtad.",
+    "plataforma": null,
+    "puntuacion": 9.9,
+    "temporadas": 0
+  },
+  {
+    "id": 2,
+    "titulo": "StarWars <br>El ascenso de SkyWalker",
+    "director": "J.J.Abrams",
+    "estreno": "2019",
+    "imagen": "/Imagen/peliculas/StarWars.jpeg",
+    "sinopsis": "En el episodio IX de la saga de Star Wars, la Resistencia se enfrenta a la Primera Orden en una batalla final que definirá el destino de la galaxia. Rey, quien se entrena para convertirse en Jedi, busca su lugar en el universo mientras enfrenta el legado oscuro de su linaje. Con el regreso del emperador Palpatine, los héroes deben unirse y descubrir el verdadero significado de la esperanza y la lucha.",
+    "plataforma": null,
+    "puntuacion": 8,
+    "temporadas": 0
+  },
+  {
+    "id": 3,
+    "titulo": "Alien Romulus",
+    "director": "Federico Álvarez",
+    "estreno": "2024",
+    "imagen": "/Imagen/peliculas/AlienRomulus.jpeg",
+    "sinopsis": "En este nuevo capítulo del universo Alien, un grupo de exploradores se dirige al planeta Romulus, donde descubren un antiguo y misterioso artefacto que despierta a una forma de vida alienígena. A medida que la situación se descontrola, los miembros de la tripulación deben enfrentarse a sus peores temores mientras intentan sobrevivir a los horrores que acechan en la oscuridad.",
+    "plataforma": null,
+    "puntuacion": 6.5,
+    "temporadas": 0
+  },
+  {
+    "id": 4,
+    "titulo": "Interstellar",
+    "director": "Christopher Nolan",
+    "estreno": "2014",
+    "imagen": "/Imagen/peliculas/Interestellar.jpg",
+    "sinopsis": "En un futuro no muy lejano, la Tierra enfrenta una crisis ecológica que amenaza la supervivencia de la humanidad. Un grupo de exploradores viaja a través de un agujero de gusano en busca de un nuevo hogar para la humanidad. Cooper, un ex piloto de la NASA, debe dejar a su familia atrás mientras se enfrenta a las complejidades del tiempo y el amor en un viaje intergaláctico que desafía la comprensión humana.",
+    "plataforma": null,
+    "puntuacion": 9.5,
+    "temporadas": 0
+  },
+  {
+    "id": 5,
+    "titulo": "Matrix",
+    "director": "Wachowski",
+    "estreno": "1999",
+    "imagen": "/Imagen/peliculas/Matrix.jpg",
+    "sinopsis": "Thomas Anderson, un programador de computadoras, lleva una doble vida como hacker bajo el alias 'Neo'. Tras descubrir que la realidad que conoce es una simulación creada por máquinas, Neo se une a un grupo de rebeldes liderados por Morfeo y Trinity para luchar contra el sistema que ha esclavizado a la humanidad. La historia explora temas de realidad, control y liberación.",
+    "plataforma": null,
+    "puntuacion": 8.5,
+    "temporadas": 0
+  },
+  {
+    "id": 6,
+    "titulo": "El Lobo de Wall Street",
+    "director": "Martin Scorsese",
+    "estreno": "2013",
+    "imagen": "/Imagen/peliculas/LoboWallStreet.jpg",
+    "sinopsis": "Basada en la historia real de Jordan Belfort, un ambicioso corredor de bolsa que se convierte en un magnate del comercio en la década de 1990. A medida que su vida se llena de excesos, fraude y corrupción, Belfort enfrenta las consecuencias de sus acciones mientras el FBI lo investiga. La película retrata un estilo de vida desenfrenado y la caída de un imperio construido sobre la avaricia.",
+    "plataforma": null,
+    "puntuacion": 9,
+    "temporadas": 0
+  },
+  {
+    "id": 7,
+    "titulo": "Joker",
+    "director": "Todd Phillips",
+    "estreno": "2019",
+    "imagen": "/Imagen/peliculas/Joker.jpg",
+    "sinopsis": "Este aclamado filme explora el origen de Arthur Fleck, un hombre con problemas mentales que trabaja como payaso y aspira a ser comediante. En una sociedad que lo margina, Fleck se transforma en el Joker, un criminal que siembra el caos en Gotham City. La película ofrece una mirada profunda y oscura a la psicología del villano más icónico de DC.",
+    "plataforma": null,
+    "puntuacion": 7,
+    "temporadas": 0
+  },
+  {
+    "id": 8,
+    "titulo": "300",
+    "director": "Zack Snyder",
+    "estreno": "2006",
+    "imagen": "/Imagen/peliculas/300.jpg",
+    "sinopsis": "Basada en la historia de la Batalla de las Termópilas, esta película narra la resistencia heroica del rey Leónidas y sus 300 espartanos frente a la inmensa fuerza del ejército persa liderado por Jerjes. A pesar de las abrumadoras probabilidades, los espartanos luchan con valentía, simbolizando el sacrificio y el honor en la guerra.",
+    "plataforma": null,
+    "puntuacion": 8.6,
+    "temporadas": 0
+  }
+]

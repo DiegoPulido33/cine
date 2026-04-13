@@ -1,0 +1,13 @@
+<div class="contenido-pelicula">
+    <div *ngIf="pelicula;" class="pelicula-detalle">
+      <div class="poster">
+        <img [src]="pelicula.imagen" [alt]="pelicula.titulo" />
+      </div>
+      <div class="info">
+        <h1 class="titulo" [innerHTML]="pelicula.titulo"></h1>
+        <p class="director"><strong>Director:</strong> {{ pelicula.director }}</p>
+        <p class="estreno"><strong>Año de estreno:</strong> {{ pelicula.estreno }}</p>
+        <p class="sinopsis"><strong>Sinopsis:</strong> {{ pelicula.sinopsis }}</p>
+        <p class="puntuacion"><strong>Puntuación:</strong> {{ pelicula.puntuacion }}/10</p>
+      </div>
+    </div>

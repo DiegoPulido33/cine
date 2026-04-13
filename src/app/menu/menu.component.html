@@ -1,0 +1,9 @@
+<div class="header">
+  <h1>DAW CINES</h1>
+</div>
+
+<div class="menu">
+<a *ngFor="let item of opciones" routerLink="{{ item.ruta }}" class="menu-item">
+  {{ item.texto }}
+</a>
+</div>

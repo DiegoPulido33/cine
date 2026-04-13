@@ -1,0 +1,32 @@
+<div class="header">
+  <h1 class="title">Cartelera de Películas</h1>
+</div>
+<div class="cartelera">
+  <div *ngFor="let pelicula of peliculas" class="pelicula flip-card" (click)="toggleFlip($event)">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="{{ pelicula.imagen }}" alt="{{ pelicula.titulo }}" class="poster">
+        <p class="puntuacion"><strong>Puntuación:</strong> {{ pelicula.puntuacion }}</p>
+      </div>
+      <div class="flip-card-back">
+        <div class="info">
+          <p class="director"><strong>Director:</strong> {{ pelicula.director }}</p>
+          <p class="estreno"><strong>Estreno:</strong> {{ pelicula.estreno }}</p>
+          <p class="sinopsis"><strong>Sinopsis:</strong> {{ pelicula.sinopsis }}</p>
+          <p class="puntuacion"><strong>Puntuación:</strong> {{ pelicula.puntuacion }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <div class="footerTxt">
+    <a href="#@company"> Peliculas.com</a>
+  </div>
+  <p>
+    <a href="#sobremi">Sobre Nosotros</a> |
+    <a href="#contacto">Contacto</a> |
+    <a href="#privacidad">Política de Privacidad</a> |
+    <a href="#terminos">Términos y Condiciones</a>
+  </p>
+</div>
