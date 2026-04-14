@@ -3,14 +3,13 @@ import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-menu',
+  selector: 'app-header',
   standalone: true,
   imports: [RouterModule, CommonModule],
-  templateUrl: './menu.component.html',
-  styleUrls: ['./menu.component.css'],
+  templateUrl: './header.component.html',
+  styleUrls: ['./header.component.css'],
 })
-export class MenuComponent {
-  
+export class HeaderComponent {
   public opciones = [
     { texto: 'Inicio', ruta: '/inicio' },
     { texto: 'Películas', ruta: '/peliculas' },
