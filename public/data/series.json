@@ -1,89 +1,161 @@
 [
   {
     "id": 9,
-    "titulo": "Los anillos del Poder",
+    "titulo": {
+      "es": "Los anillos del Poder",
+      "en": "The Rings of Power"
+    },
     "director": "J.A. Bayona",
     "estreno": "2022",
     "imagen": "/Imagen/series/RingsOfPower.webp",
-    "sinopsis": "Ambientada miles de años antes de 'El Señor de los Anillos', esta serie explora la forja de los Anillos de Poder y el ascenso del Señor Oscuro Sauron. A medida que diferentes reinos se enfrentan a nuevas amenazas y alianzas se forman, se revela la historia de la Tierra Media y los eventos que darán forma a su futuro.",
-    "plataforma": "Prime Video",
+    "sinopsis": {
+      "es": "Ambientada miles de años antes de 'El Señor de los Anillos', esta serie explora la forja de los Anillos de Poder y el ascenso del Señor Oscuro Sauron. A medida que diferentes reinos se enfrentan a nuevas amenazas y alianzas se forman, se revela la historia de la Tierra Media y los eventos que darán forma a su futuro.",
+      "en": "Set thousands of years before 'The Lord of the Rings', this series explores the forging of the Rings of Power and the rise of the Dark Lord Sauron. As different kingdoms face new threats and alliances are formed, the history of Middle-earth and the events that will shape its future are revealed."
+    },
+    "plataforma": {
+      "es": "Prime Video",
+      "en": "Prime Video"
+    },
     "puntuacion": 7.5,
     "temporadas": 2
   },
   {
     "id": 10,
-    "titulo": "The Mandalorian",
+    "titulo": {
+      "es": "The Mandalorian",
+      "en": "The Mandalorian"
+    },
     "director": "Jon Favreau",
     "estreno": "2019",
     "imagen": "/Imagen/series/TheMandalorian.webp",
-    "sinopsis": "Ambientada en el universo de Star Wars, la serie sigue a un cazarrecompensas solitario conocido como 'Mando' en sus aventuras después de la caída del Imperio. A lo largo de su viaje, se encuentra con un misterioso niño llamado Grogu, lo que lo lleva a cuestionar su misión y su vida como cazarrecompensas en un mundo caótico.",
-    "plataforma": "Prime Video",
+    "sinopsis": {
+      "es": "Ambientada en el universo de Star Wars, la serie sigue a un cazarrecompensas solitario conocido como 'Mando' en sus aventuras después de la caída del Imperio. A lo largo de su viaje, se encuentra con un misterioso niño llamado Grogu, lo que lo lleva a cuestionar su misión y su vida como cazarrecompensas en un mundo caótico.",
+      "en": "Set in the Star Wars universe, the series follows a lone bounty hunter known as 'Mando' on his adventures after the fall of the Empire. Throughout his journey, he encounters a mysterious child named Grogu, leading him to question his mission and his life as a bounty hunter in a chaotic world."
+    },
+    "plataforma": {
+      "es": "Prime Video",
+      "en": "Prime Video"
+    },
     "puntuacion": 8.8,
     "temporadas": 3
   },
   {
     "id": 11,
-    "titulo": "Peaky Blinders",
+    "titulo": {
+      "es": "Peaky Blinders",
+      "en": "Peaky Blinders"
+    },
     "director": "Steven Knight",
     "estreno": "2013",
     "imagen": "/Imagen/series/Peaky_Blinders.jpg",
-    "sinopsis": "Esta serie dramática sigue a la familia Shelby, una poderosa y ambiciosa pandilla en Birmingham, Inglaterra, durante la década de 1920. Liderados por el astuto Thomas Shelby, los Peaky Blinders se involucran en el mundo del crimen organizado mientras buscan expandir su influencia y luchar contra sus enemigos.",
-    "plataforma": "Netflix",
+    "sinopsis": {
+      "es": "Esta serie dramática sigue a la familia Shelby, una poderosa y ambiciosa pandilla en Birmingham, Inglaterra, durante la década de 1920. Liderados por el astuto Thomas Shelby, los Peaky Blinders se involucran en el mundo del crimen organizado mientras buscan expandir su influencia y luchar contra sus enemigos.",
+      "en": "This drama series follows the Shelby family, a powerful and ambitious gang in Birmingham, England, during the 1920s. Led by the cunning Thomas Shelby, the Peaky Blinders become involved in organized crime while seeking to expand their influence and fight their enemies."
+    },
+    "plataforma": {
+      "es": "Netflix",
+      "en": "Netflix"
+    },
     "puntuacion": 9.0,
     "temporadas": 6
   },
   {
     "id": 12,
-    "titulo": "Juego de Tronos",
+    "titulo": {
+      "es": "Juego de Tronos",
+      "en": "Game of Thrones"
+    },
     "director": "David Benioff, D.B. Weiss",
     "estreno": "2011",
     "imagen": "/Imagen/series/GameofThrones.webp",
-    "sinopsis": "Basada en la serie de novelas 'Canción de hielo y fuego' de George R. R. Martin, esta serie épica sigue las luchas de varias familias nobles por el control del Trono de Hierro en el continente de Westeros. Con intrigas políticas, batallas épicas y dragones, la serie explora temas de poder, lealtad y traición en un mundo medieval lleno de fantasía.",
-    "plataforma": "Prime Video",
+    "sinopsis": {
+      "es": "Basada en la serie de novelas 'Canción de hielo y fuego' de George R. R. Martin, esta serie épica sigue las luchas de varias familias nobles por el control del Trono de Hierro en el continente de Westeros. Con intrigas políticas, batallas épicas y dragones, la serie explora temas de poder, lealtad y traición en un mundo medieval lleno de fantasía.",
+      "en": "Based on George R. R. Martin's novel series 'A Song of Ice and Fire', this epic series follows the struggles of several noble families for control of the Iron Throne on the continent of Westeros. With political intrigue, epic battles, and dragons, the series explores themes of power, loyalty, and betrayal in a fantasy medieval world."
+    },
+    "plataforma": {
+      "es": "Prime Video",
+      "en": "Prime Video"
+    },
     "puntuacion": 9.3,
     "temporadas": 14
   },
   {
     "id": 13,
-    "titulo": "Breaking Bad",
+    "titulo": {
+      "es": "Breaking Bad",
+      "en": "Breaking Bad"
+    },
     "director": "Vince Gilligan",
     "estreno": "2008",
     "imagen": "/Imagen/series/BreakingBad.webp",
-    "sinopsis": "La serie sigue la transformación de Walter White, un profesor de química que, tras ser diagnosticado con cáncer, se convierte en un fabricante de metanfetaminas para asegurar el futuro financiero de su familia. A medida que se adentra en el mundo del crimen, Walter se enfrenta a dilemas morales y consecuencias imprevistas que amenazan a sus seres queridos.",
-    "plataforma": "Netflix",
+    "sinopsis": {
+      "es": "La serie sigue la transformación de Walter White, un profesor de química que, tras ser diagnosticado con cáncer, se convierte en un fabricante de metanfetaminas para asegurar el futuro financiero de su familia. A medida que se adentra en el mundo del crimen, Walter se enfrenta a dilemas morales y consecuencias imprevistas que amenazan a sus seres queridos.",
+      "en": "The series follows the transformation of Walter White, a chemistry teacher who, after being diagnosed with cancer, becomes a methamphetamine producer to secure his family's financial future. As he descends into the criminal world, Walter faces moral dilemmas and unforeseen consequences that threaten his loved ones."
+    },
+    "plataforma": {
+      "es": "Netflix",
+      "en": "Netflix"
+    },
     "puntuacion": 9.5,
     "temporadas": 5
   },
   {
     "id": 14,
-    "titulo": "Prison Break",
+    "titulo": {
+      "es": "Prison Break",
+      "en": "Prison Break"
+    },
     "director": "Paul Scheuring",
     "estreno": "2005",
     "imagen": "/Imagen/series/prison.jpg",
-    "sinopsis": "La historia sigue a Michael Scofield, un hombre que se infiltra en una prisión para ayudar a su hermano, condenado a muerte por un crimen que no cometió. Con un plan meticulosamente elaborado, Michael busca liberar a su hermano y enfrentarse a la conspiración que lo encarceló, mientras lidia con una serie de desafíos y adversidades.",
-    "plataforma": "Netflix",
+    "sinopsis": {
+      "es": "La historia sigue a Michael Scofield, un hombre que se infiltra en una prisión para ayudar a su hermano, condenado a muerte por un crimen que no cometió. Con un plan meticulosamente elaborado, Michael busca liberar a su hermano y enfrentarse a la conspiración que lo encarceló, mientras lidia con una serie de desafíos y adversidades.",
+      "en": "The story follows Michael Scofield, a man who infiltrates a prison to help his brother, who has been sentenced to death for a crime he did not commit. With a meticulously crafted plan, Michael seeks to free his brother and confront the conspiracy that imprisoned him, while dealing with a series of challenges and hardships."
+    },
+    "plataforma": {
+      "es": "Netflix",
+      "en": "Netflix"
+    },
     "puntuacion": 8.3,
     "temporadas": 5
   },
   {
     "id": 15,
-    "titulo": "Stranger Things",
+    "titulo": {
+      "es": "Stranger Things",
+      "en": "Stranger Things"
+    },
     "director": "Duffer Brothers",
     "estreno": "2016",
     "imagen": "/Imagen/series/StrangerThings.jpg",
-    "sinopsis": "Ambientada en la década de 1980, esta serie de ciencia ficción sigue a un grupo de niños en el pequeño pueblo de Hawkins, Indiana, que se enfrenta a fenómenos sobrenaturales. Tras la desaparición de uno de ellos, el grupo descubre una niña con habilidades psíquicas y se ve envuelto en una serie de eventos que involucran experimentos secretos y dimensiones paralelas.",
-    "plataforma": "Netflix",
+    "sinopsis": {
+      "es": "Ambientada en la década de 1980, esta serie de ciencia ficción sigue a un grupo de niños en el pequeño pueblo de Hawkins, Indiana, que se enfrenta a fenómenos sobrenaturales. Tras la desaparición de uno de ellos, el grupo descubre una niña con habilidades psíquicas y se ve envuelto en una serie de eventos que involucran experimentos secretos y dimensiones paralelas.",
+      "en": "Set in the 1980s, this science fiction series follows a group of children in the small town of Hawkins, Indiana, as they face supernatural phenomena. After one of them disappears, the group discovers a girl with psychic abilities and becomes entangled in a series of events involving secret experiments and parallel dimensions."
+    },
+    "plataforma": {
+      "es": "Netflix",
+      "en": "Netflix"
+    },
     "puntuacion": 8.7,
     "temporadas": 5
   },
   {
     "id": 16,
-    "titulo": "El Pingüino",
+    "titulo": {
+      "es": "El Pingüino",
+      "en": "The Penguin"
+    },
     "director": "Matt Reeves",
     "estreno": "2023",
     "imagen": "/Imagen/series/Pinguino.jpg",
-    "sinopsis": "La serie se centra en el personaje de Oswald Cobblepot, conocido como el Pingüino, en el universo de Gotham. La trama sigue su ascenso en el mundo criminal de la ciudad mientras navega por intrigas, traiciones y alianzas inusuales, explorando su transformación de un delincuente menor a uno de los villanos más icónicos de Gotham.",
-    "plataforma": "HBO",
+    "sinopsis": {
+      "es": "La serie se centra en el personaje de Oswald Cobblepot, conocido como el Pingüino, en el universo de Gotham. La trama sigue su ascenso en el mundo criminal de la ciudad mientras navega por intrigas, traiciones y alianzas inusuales, explorando su transformación de un delincuente menor a uno de los villanos más icónicos de Gotham.",
+      "en": "The series focuses on the character of Oswald Cobblepot, known as the Penguin, within the Gotham universe. The plot follows his rise in the city's criminal underworld as he navigates intrigue, betrayal, and unusual alliances, exploring his transformation from a minor criminal into one of Gotham's most iconic villains."
+    },
+    "plataforma": {
+      "es": "HBO",
+      "en": "HBO"
+    },
     "puntuacion": 7.8,
     "temporadas": 1
   }

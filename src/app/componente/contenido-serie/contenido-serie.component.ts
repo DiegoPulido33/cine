@@ -1,9 +1,10 @@
 import { CommonModule } from '@angular/common';
-import { Component, OnDestroy, OnInit } from '@angular/core';
+import { Component, inject, OnDestroy, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { IAVisual } from '../IAVisual';
 import { CineService } from '../../servicios/cine.service';
 import { Subscription } from 'rxjs';
+import { LanguageService } from '../../i18n/language.service';
 
 @Component({
   selector: 'app-contenido-serie',
@@ -13,10 +14,12 @@ import { Subscription } from 'rxjs';
   styleUrls: ['./contenido-serie.component.css'],
 })
 export class ContenidoSerieComponent implements OnInit, OnDestroy {
+  readonly languageService = inject(LanguageService);
+  readonly t = this.languageService.translations;
   serie?: IAVisual;
   private subscription?: Subscription;
 
-  constructor(private route: ActivatedRoute, private cineService: CineService) {}
+  constructor(private route: ActivatedRoute, private cineService: CineService) { }
 
   ngOnInit(): void {
     const id = Number(this.route.snapshot.paramMap.get('id'));
@@ -38,5 +41,13 @@ export class ContenidoSerieComponent implements OnInit, OnDestroy {
 
   ngOnDestroy(): void {
     this.subscription?.unsubscribe();
+  }
+
+  getLocalizedText(value: any): string {
+    if (!value) return '';
+    if (typeof value === 'string') return value;
+
+    const lang = this.languageService.language();
+    return value[lang] ?? value.es ?? value.en ?? '';
   }
 }

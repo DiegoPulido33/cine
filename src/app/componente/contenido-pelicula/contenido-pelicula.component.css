@@ -1,66 +1,188 @@
-/* Contenedor principal */
-.contenido-pelicula {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    font-family: Arial, sans-serif;
-    color: #333;
+.movie-detail-page {
+  padding: 56px;
+  display: flex;
+  justify-content: center;
+}
+
+.movie-detail-card {
+  width: 100%;
+  max-width: 1280px;
+  display: grid;
+  grid-template-columns: 360px 1fr;
+  gap: 36px;
+  padding: 32px;
+  border-radius: 24px;
+  background: linear-gradient(
+    180deg,
+    rgba(18, 20, 25, 0.98) 0%,
+    rgba(12, 14, 18, 1) 100%
+  );
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow:
+    0 18px 50px rgba(0, 0, 0, 0.36),
+    0 0 28px rgba(255, 31, 73, 0.05),
+    inset 0 1px 0 rgba(255, 255, 255, 0.02);
+}
+
+.movie-detail-poster img {
+  width: 100%;
+  height: 100%;
+  max-height: 640px;
+  object-fit: cover;
+  border-radius: 18px;
+  display: block;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+}
+
+.movie-detail-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 22px;
+  color: #eef2f5;
+}
+
+.movie-detail-tag {
+  display: inline-flex;
+  align-self: flex-start;
+  padding: 7px 14px;
+  border-radius: 999px;
+  background: rgba(255, 31, 73, 0.1);
+  border: 1px solid rgba(255, 31, 73, 0.2);
+  color: #ffffff;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.movie-detail-title {
+  margin: 0;
+  font-size: 3rem;
+  line-height: 1.1;
+  color: #ffffff;
+  text-shadow: 0 0 18px rgba(255, 31, 73, 0.08);
+}
+
+.movie-detail-meta {
+  display: grid;
+  gap: 12px;
+}
+
+.movie-detail-meta p {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: rgba(235, 239, 244, 0.88);
+}
+
+.movie-detail-meta strong {
+  color: #ffffff;
+}
+
+.movie-detail-synopsis {
+  margin-top: 8px;
+  padding: 22px 24px;
+  border-radius: 18px;
+  background: linear-gradient(
+    180deg,
+    rgba(34, 18, 23, 0.92) 0%,
+    rgba(22, 12, 16, 0.98) 100%
+  );
+  border: 1px solid rgba(255, 90, 120, 0.14);
+  box-shadow:
+    0 10px 28px rgba(0, 0, 0, 0.22),
+    inset 0 1px 0 rgba(255, 255, 255, 0.02);
+}
+
+.movie-detail-synopsis h2 {
+  margin: 0 0 12px;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+.movie-detail-synopsis p {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.8;
+  color: rgba(240, 243, 247, 0.88);
+}
+
+@media (max-width: 1024px) {
+  .movie-detail-page {
+    padding: 40px 28px;
   }
-  
-  /* Estilo para el contenedor del detalle */
-  .pelicula-detalle {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 20px;
-    max-width: 1200px;
-    background: #f5f5f5;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+
+  .movie-detail-card {
+    grid-template-columns: 300px 1fr;
+    gap: 28px;
+    padding: 26px;
   }
-  
-  /* Poster de la película */
-  .poster img {
-    width: 300px;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-  }
-  
-  /* Contenedor de la información */
-  .info {
-    max-width: 800px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-  }
-  
-  /* Título de la película */
-  .titulo {
+
+  .movie-detail-title {
     font-size: 2.5rem;
-    color: #222;
-    text-align: center;
-    margin-bottom: 10px;
   }
-  
-  /* Subtítulos y textos */
-  .director,
-  .estreno,
-  .sinopsis,
-  .puntuacion {
-    font-size: 1.2rem;
-    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .movie-detail-page {
+    padding: 32px 20px;
   }
-  
-  /* Resaltado de los títulos */
-  .director strong,
-  .estreno strong,
-  .sinopsis strong,
-  .puntuacion strong {
-    color: #555;
+
+  .movie-detail-card {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 22px;
+    border-radius: 20px;
   }
-  
- 
+
+  .movie-detail-poster img {
+    max-height: 520px;
+  }
+
+  .movie-detail-info {
+    gap: 18px;
+  }
+
+  .movie-detail-title {
+    font-size: 2.1rem;
+    line-height: 1.12;
+  }
+
+  .movie-detail-meta p {
+    font-size: 1rem;
+    line-height: 1.55;
+  }
+
+  .movie-detail-synopsis {
+    padding: 18px 18px;
+  }
+
+  .movie-detail-synopsis p {
+    font-size: 0.98rem;
+    line-height: 1.75;
+  }
+}
+
+@media (max-width: 520px) {
+  .movie-detail-page {
+    padding: 24px 16px;
+  }
+
+  .movie-detail-card {
+    padding: 18px;
+  }
+
+  .movie-detail-title {
+    font-size: 1.8rem;
+  }
+
+  .movie-detail-tag {
+    font-size: 0.78rem;
+  }
+
+  .movie-detail-poster img {
+    max-height: 420px;
+    border-radius: 16px;
+  }
+}

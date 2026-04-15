@@ -1,18 +1,48 @@
 <div class="home-page">
+  <section class="hero-section">
+    <div class="hero-section__content">
+      <span class="hero-section__eyebrow">{{ t().hero.eyebrow }}</span>
+
+      <h1 class="hero-section__title">
+        {{ t().hero.title }}
+      </h1>
+
+      <p class="hero-section__description">
+        {{ t().hero.description }}
+      </p>
+
+      <div class="hero-section__actions">
+        <a
+          routerLink="/peliculas"
+          class="hero-section__button hero-section__button--primary"
+        >
+          {{ t().hero.exploreMovies }}
+        </a>
+
+        <a
+          routerLink="/series"
+          class="hero-section__button hero-section__button--secondary"
+        >
+          {{ t().hero.exploreSeries }}
+        </a>
+      </div>
+    </div>
+  </section>
+
   <section class="media-section">
-    <h2 class="section-title">Películas</h2>
+    <h2 class="section-title">{{ t().home.moviesSection }}</h2>
 
     <div class="media-grid">
       <div *ngFor="let pelicula of peliculas" class="media-card">
         <a [routerLink]="['/contenido-pelicula', pelicula.id]">
           <img
             [src]="pelicula.imagen"
-            [alt]="pelicula.titulo"
+            [alt]="getLocalizedText(pelicula.titulo)"
             class="media-poster"
           />
 
           <div class="media-overlay">
-            <h3 class="media-title" [innerHTML]="pelicula.titulo"></h3>
+            <h3 class="media-title" [innerHTML]="getLocalizedText(pelicula.titulo)"></h3>
           </div>
         </a>
       </div>
@@ -20,19 +50,19 @@
   </section>
 
   <section class="media-section">
-    <h2 class="section-title">Series</h2>
+    <h2 class="section-title">{{ t().home.seriesSection }}</h2>
 
     <div class="media-grid">
       <div *ngFor="let serie of series" class="media-card">
         <a [routerLink]="['/contenido-serie', serie.id]">
           <img
             [src]="serie.imagen"
-            [alt]="serie.titulo"
+            [alt]="getLocalizedText(serie.titulo)"
             class="media-poster"
           />
 
           <div class="media-overlay">
-            <h3 class="media-title" [innerHTML]="serie.titulo"></h3>
+            <h3 class="media-title" [innerHTML]="getLocalizedText(serie.titulo)"></h3>
           </div>
         </a>
       </div>

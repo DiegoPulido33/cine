@@ -1,13 +1,24 @@
-<div class="contenido-pelicula">
-    <div *ngIf="pelicula;" class="pelicula-detalle">
-      <div class="poster">
-        <img [src]="pelicula.imagen" [alt]="pelicula.titulo" />
+<div class="movie-detail-page">
+  <div *ngIf="pelicula" class="movie-detail-card">
+    <div class="movie-detail-poster">
+      <img [src]="pelicula.imagen" [alt]="getLocalizedText(pelicula.titulo)" />
+    </div>
+
+    <div class="movie-detail-info">
+      <span class="movie-detail-tag">{{ t().movieDetail.tag }}</span>
+
+      <h1 class="movie-detail-title" [innerHTML]="getLocalizedText(pelicula.titulo)"></h1>
+
+      <div class="movie-detail-meta">
+        <p><strong>{{ t().movieDetail.director }}:</strong> {{ pelicula.director }}</p>
+        <p><strong>{{ t().movieDetail.releaseYear }}:</strong> {{ pelicula.estreno }}</p>
+        <p><strong>{{ t().movieDetail.rating }}:</strong> {{ pelicula.puntuacion }}/10</p>
       </div>
-      <div class="info">
-        <h1 class="titulo" [innerHTML]="pelicula.titulo"></h1>
-        <p class="director"><strong>Director:</strong> {{ pelicula.director }}</p>
-        <p class="estreno"><strong>Año de estreno:</strong> {{ pelicula.estreno }}</p>
-        <p class="sinopsis"><strong>Sinopsis:</strong> {{ pelicula.sinopsis }}</p>
-        <p class="puntuacion"><strong>Puntuación:</strong> {{ pelicula.puntuacion }}/10</p>
+
+      <div class="movie-detail-synopsis">
+        <h2>{{ t().movieDetail.synopsis }}</h2>
+        <p>{{ getLocalizedText(pelicula.sinopsis) }}</p>
       </div>
     </div>
+  </div>
+</div>

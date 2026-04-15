@@ -1,16 +1,23 @@
-<div class="contenido-serie">
-    <div *ngIf="serie;" class="serie-detalle">
-      <div class="poster">
-        <img [src]="serie.imagen" [alt]="serie.titulo" />
+<div class="series-detail-page">
+  <div *ngIf="serie" class="series-detail-card">
+    <div class="series-detail-poster">
+      <img [src]="serie.imagen" [alt]="getLocalizedText(serie.titulo)" />
+    </div>
+
+    <div class="series-detail-info">
+      <span class="series-detail-tag">{{ t().seriesDetail.tag }}</span>
+
+      <h1 class="series-detail-title" [innerHTML]="getLocalizedText(serie.titulo)"></h1>
+
+      <div class="series-detail-meta">
+        <p><strong>{{ t().seriesDetail.seasons }}:</strong> {{ serie.temporadas }}</p>
+        <p><strong>{{ t().seriesDetail.platform }}:</strong> {{ getLocalizedText(serie.plataforma) }}</p>
       </div>
-      <div class="info">
-        <h1 class="titulo" [innerHTML]="serie.titulo"></h1>
-        <p class="director"><strong>Director:</strong> {{ serie.director }}</p>
-        <p class="estreno"><strong>Año de estreno:</strong> {{ serie.estreno }}</p>
-        <p class="sinopsis"><strong>Sinopsis:</strong> {{ serie.sinopsis }}</p>
-        <p class="temporadas"><strong>Temporadas:</strong> {{ serie.temporadas }}</p>
-        <p class="puntuacion"><strong>Puntuación:</strong> {{ serie.puntuacion }}/10</p>
+
+      <div class="series-detail-synopsis">
+        <h2>{{ t().seriesDetail.synopsis }}</h2>
+        <p>{{ getLocalizedText(serie.sinopsis) }}</p>
       </div>
     </div>
-  
- 
+  </div>
+</div>

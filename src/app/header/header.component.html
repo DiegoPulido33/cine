@@ -1,19 +1,75 @@
 <header class="site-header">
   <div class="site-header__brand">
-    <a routerLink="/inicio" class="site-header__logo-link">
-      <img src="/logos/cinesDPR.png" alt="Cines DPR" class="site-header__logo" />
+    <a routerLink="/inicio" class="site-header__logo-link" (click)="closeMobileMenu()">
+      <img
+        src="/logos/cinesDPR.png"
+        alt="Cines DPR"
+        class="site-header__logo"
+      />
     </a>
   </div>
 
-  <nav class="site-header__menu">
-    <a
-      *ngFor="let item of opciones"
-      [routerLink]="item.ruta"
-      routerLinkActive="active"
-      [routerLinkActiveOptions]="{ exact: item.ruta === '/inicio' }"
-      class="menu-item"
+  <div class="site-header__menu-bar">
+    <nav class="site-header__menu site-header__menu--desktop">
+      <a
+        *ngFor="let item of opciones()"
+        [routerLink]="item.ruta"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: item.ruta === '/inicio' }"
+        class="menu-item"
+      >
+        {{ item.texto }}
+      </a>
+    </nav>
+
+    <button
+      type="button"
+      class="menu-toggle"
+      (click)="toggleMobileMenu()"
+      [class.is-open]="mobileMenuOpen()"
+      [attr.aria-expanded]="mobileMenuOpen()"
+      aria-label="Toggle navigation menu"
     >
-      {{ item.texto }}
-    </a>
-  </nav>
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <button
+      type="button"
+      class="language-toggle language-toggle--desktop"
+      (click)="toggleLanguage()"
+      [attr.aria-label]="languageService.isSpanish() ? 'Cambiar a inglés' : 'Switch to Spanish'"
+    >
+      {{ t().common.language }}
+    </button>
+  </div>
+
+  <div class="site-header__mobile-panel" [class.is-open]="mobileMenuOpen()">
+    <div class="site-header__mobile-panel-inner">
+      <nav class="site-header__mobile-nav">
+        <a
+          *ngFor="let item of opciones()"
+          [routerLink]="item.ruta"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: item.ruta === '/inicio' }"
+          class="mobile-menu-item"
+          (click)="closeMobileMenu()"
+        >
+          {{ item.texto }}
+        </a>
+      </nav>
+
+      <div class="site-header__mobile-actions">
+        <button
+          type="button"
+          class="language-toggle language-toggle--mobile"
+          (click)="toggleLanguage()"
+          [attr.aria-label]="languageService.isSpanish() ? 'Cambiar a inglés' : 'Switch to Spanish'"
+        >
+          {{ t().common.language }}
+        </button>
+      </div>
+    </div>
+  </div>
 </header>

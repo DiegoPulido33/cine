@@ -1,21 +1,39 @@
-<div class="header">
-  <h1 class="title">Cartelera de Películas</h1>
-</div>
-<div class="cartelera">
-  <div *ngFor="let pelicula of peliculas" class="pelicula flip-card" (click)="toggleFlip($event)">
-    <div class="flip-card-inner">
-      <div class="flip-card-front">
-        <img src="{{ pelicula.imagen }}" alt="{{ pelicula.titulo }}" class="poster">
-        <p class="puntuacion"><strong>Puntuación:</strong> {{ pelicula.puntuacion }}</p>
-      </div>
-      <div class="flip-card-back">
-        <div class="info">
-          <p class="director"><strong>Director:</strong> {{ pelicula.director }}</p>
-          <p class="estreno"><strong>Estreno:</strong> {{ pelicula.estreno }}</p>
-          <p class="sinopsis"><strong>Sinopsis:</strong> {{ pelicula.sinopsis }}</p>
-          <p class="puntuacion"><strong>Puntuación:</strong> {{ pelicula.puntuacion }}</p>
+<section class="movies-page">
+  <h1 class="page-title">{{ t().moviesPage.title }}</h1>
+
+  <div class="movies-grid">
+    <div
+      *ngFor="let pelicula of peliculas"
+      class="movie-card flip-card"
+      (click)="toggleFlip($event)"
+    >
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img
+            [src]="pelicula.imagen"
+            [alt]="getLocalizedText(pelicula.titulo)"
+            class="poster"
+          />
+
+          <div class="rating-badge">
+            {{ pelicula.puntuacion }}/10
+          </div>
+        </div>
+
+        <div class="flip-card-back">
+          <div class="movie-info">
+            <h2 class="movie-title" [innerHTML]="getLocalizedText(pelicula.titulo)"></h2>
+
+            <p><strong>{{ t().movieDetail.director }}:</strong> {{ pelicula.director }}</p>
+            <p><strong>{{ t().movieDetail.releaseYear }}:</strong> {{ pelicula.estreno }}</p>
+            <p><strong>{{ t().movieDetail.rating }}:</strong> {{ pelicula.puntuacion }}/10</p>
+
+            <p class="synopsis">
+              {{ getLocalizedText(pelicula.sinopsis) }}
+            </p>
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
+</section>

@@ -1,88 +1,136 @@
 [
   {
     "id": 1,
-    "titulo": "El Hobbit<br> La batalla de los cinco ejércitos",
+    "titulo": {
+      "es": "El Hobbit<br> La batalla de los cinco ejércitos",
+      "en": "The Hobbit<br> The Battle of the Five Armies"
+    },
     "director": "Peter Jackson",
     "estreno": "2014",
     "imagen": "/Imagen/peliculas/Hobbit5.JPG.webp",
-    "sinopsis": "En el desenlace de la trilogía de 'El Hobbit', Bilbo Bolsón se encuentra en el centro de un conflicto monumental cuando Thorin Escudo de Roble y su compañía de enanos, tras haber reclamado la Montaña Solitaria y su tesoro, deben enfrentarse a fuerzas de la oscuridad. La llegada de un antiguo enemigo, Smaug, desata una serie de conflictos entre enanos, elfos y hombres, que culminan en la Batalla de los Cinco Ejércitos, donde Bilbo deberá decidir dónde radica su lealtad.",
+    "sinopsis": {
+      "es": "En el desenlace de la trilogía de 'El Hobbit', Bilbo Bolsón se encuentra en el centro de un conflicto monumental cuando Thorin Escudo de Roble y su compañía de enanos, tras haber reclamado la Montaña Solitaria y su tesoro, deben enfrentarse a fuerzas de la oscuridad. La llegada de un antiguo enemigo, Smaug, desata una serie de conflictos entre enanos, elfos y hombres, que culminan en la Batalla de los Cinco Ejércitos, donde Bilbo deberá decidir dónde radica su lealtad.",
+      "en": "In the final chapter of 'The Hobbit' trilogy, Bilbo Baggins finds himself at the center of a monumental conflict when Thorin Oakenshield and his company of dwarves, after reclaiming the Lonely Mountain and its treasure, must face the forces of darkness. The arrival of an ancient enemy, Smaug, sparks a series of conflicts among dwarves, elves, and men, culminating in the Battle of the Five Armies, where Bilbo must decide where his loyalty truly lies."
+    },
     "plataforma": null,
     "puntuacion": 9.9,
     "temporadas": 0
   },
   {
     "id": 2,
-    "titulo": "StarWars <br>El ascenso de SkyWalker",
-    "director": "J.J.Abrams",
+    "titulo": {
+      "es": "StarWars <br>El ascenso de SkyWalker",
+      "en": "Star Wars <br>The Rise of Skywalker"
+    },
+    "director": "J.J. Abrams",
     "estreno": "2019",
     "imagen": "/Imagen/peliculas/StarWars.jpeg",
-    "sinopsis": "En el episodio IX de la saga de Star Wars, la Resistencia se enfrenta a la Primera Orden en una batalla final que definirá el destino de la galaxia. Rey, quien se entrena para convertirse en Jedi, busca su lugar en el universo mientras enfrenta el legado oscuro de su linaje. Con el regreso del emperador Palpatine, los héroes deben unirse y descubrir el verdadero significado de la esperanza y la lucha.",
+    "sinopsis": {
+      "es": "En el episodio IX de la saga de Star Wars, la Resistencia se enfrenta a la Primera Orden en una batalla final que definirá el destino de la galaxia. Rey, quien se entrena para convertirse en Jedi, busca su lugar en el universo mientras enfrenta el legado oscuro de su linaje. Con el regreso del emperador Palpatine, los héroes deben unirse y descubrir el verdadero significado de la esperanza y la lucha.",
+      "en": "In Episode IX of the Star Wars saga, the Resistance faces the First Order in a final battle that will define the fate of the galaxy. Rey, training to become a Jedi, searches for her place in the universe while confronting the dark legacy of her lineage. With the return of Emperor Palpatine, the heroes must unite and discover the true meaning of hope and resistance."
+    },
     "plataforma": null,
     "puntuacion": 8,
     "temporadas": 0
   },
   {
     "id": 3,
-    "titulo": "Alien Romulus",
+    "titulo": {
+      "es": "Alien Romulus",
+      "en": "Alien: Romulus"
+    },
     "director": "Federico Álvarez",
     "estreno": "2024",
     "imagen": "/Imagen/peliculas/AlienRomulus.jpeg",
-    "sinopsis": "En este nuevo capítulo del universo Alien, un grupo de exploradores se dirige al planeta Romulus, donde descubren un antiguo y misterioso artefacto que despierta a una forma de vida alienígena. A medida que la situación se descontrola, los miembros de la tripulación deben enfrentarse a sus peores temores mientras intentan sobrevivir a los horrores que acechan en la oscuridad.",
+    "sinopsis": {
+      "es": "En este nuevo capítulo del universo Alien, un grupo de exploradores se dirige al planeta Romulus, donde descubren un antiguo y misterioso artefacto que despierta a una forma de vida alienígena. A medida que la situación se descontrola, los miembros de la tripulación deben enfrentarse a sus peores temores mientras intentan sobrevivir a los horrores que acechan en la oscuridad.",
+      "en": "In this new chapter of the Alien universe, a group of explorers travels to the planet Romulus, where they discover an ancient and mysterious artifact that awakens an alien life form. As the situation spirals out of control, the crew members must face their deepest fears while trying to survive the horrors lurking in the darkness."
+    },
     "plataforma": null,
     "puntuacion": 6.5,
     "temporadas": 0
   },
   {
     "id": 4,
-    "titulo": "Interstellar",
+    "titulo": {
+      "es": "Interstellar",
+      "en": "Interstellar"
+    },
     "director": "Christopher Nolan",
     "estreno": "2014",
     "imagen": "/Imagen/peliculas/Interestellar.jpg",
-    "sinopsis": "En un futuro no muy lejano, la Tierra enfrenta una crisis ecológica que amenaza la supervivencia de la humanidad. Un grupo de exploradores viaja a través de un agujero de gusano en busca de un nuevo hogar para la humanidad. Cooper, un ex piloto de la NASA, debe dejar a su familia atrás mientras se enfrenta a las complejidades del tiempo y el amor en un viaje intergaláctico que desafía la comprensión humana.",
+    "sinopsis": {
+      "es": "En un futuro no muy lejano, la Tierra enfrenta una crisis ecológica que amenaza la supervivencia de la humanidad. Un grupo de exploradores viaja a través de un agujero de gusano en busca de un nuevo hogar para la humanidad. Cooper, un ex piloto de la NASA, debe dejar a su familia atrás mientras se enfrenta a las complejidades del tiempo y el amor en un viaje intergaláctico que desafía la comprensión humana.",
+      "en": "In the not-too-distant future, Earth faces an ecological crisis that threatens humanity's survival. A group of explorers travels through a wormhole in search of a new home for mankind. Cooper, a former NASA pilot, must leave his family behind as he confronts the complexities of time and love on an intergalactic journey that challenges human understanding."
+    },
     "plataforma": null,
     "puntuacion": 9.5,
     "temporadas": 0
   },
   {
     "id": 5,
-    "titulo": "Matrix",
+    "titulo": {
+      "es": "Matrix",
+      "en": "The Matrix"
+    },
     "director": "Wachowski",
     "estreno": "1999",
     "imagen": "/Imagen/peliculas/Matrix.jpg",
-    "sinopsis": "Thomas Anderson, un programador de computadoras, lleva una doble vida como hacker bajo el alias 'Neo'. Tras descubrir que la realidad que conoce es una simulación creada por máquinas, Neo se une a un grupo de rebeldes liderados por Morfeo y Trinity para luchar contra el sistema que ha esclavizado a la humanidad. La historia explora temas de realidad, control y liberación.",
+    "sinopsis": {
+      "es": "Thomas Anderson, un programador de computadoras, lleva una doble vida como hacker bajo el alias 'Neo'. Tras descubrir que la realidad que conoce es una simulación creada por máquinas, Neo se une a un grupo de rebeldes liderados por Morfeo y Trinity para luchar contra el sistema que ha esclavizado a la humanidad. La historia explora temas de realidad, control y liberación.",
+      "en": "Thomas Anderson, a computer programmer, leads a double life as a hacker under the alias 'Neo'. After discovering that the reality he knows is a simulation created by machines, Neo joins a group of rebels led by Morpheus and Trinity to fight the system that has enslaved humanity. The story explores themes of reality, control, and liberation."
+    },
     "plataforma": null,
     "puntuacion": 8.5,
     "temporadas": 0
   },
   {
     "id": 6,
-    "titulo": "El Lobo de Wall Street",
+    "titulo": {
+      "es": "El Lobo de Wall Street",
+      "en": "The Wolf of Wall Street"
+    },
     "director": "Martin Scorsese",
     "estreno": "2013",
     "imagen": "/Imagen/peliculas/LoboWallStreet.jpg",
-    "sinopsis": "Basada en la historia real de Jordan Belfort, un ambicioso corredor de bolsa que se convierte en un magnate del comercio en la década de 1990. A medida que su vida se llena de excesos, fraude y corrupción, Belfort enfrenta las consecuencias de sus acciones mientras el FBI lo investiga. La película retrata un estilo de vida desenfrenado y la caída de un imperio construido sobre la avaricia.",
+    "sinopsis": {
+      "es": "Basada en la historia real de Jordan Belfort, un ambicioso corredor de bolsa que se convierte en un magnate del comercio en la década de 1990. A medida que su vida se llena de excesos, fraude y corrupción, Belfort enfrenta las consecuencias de sus acciones mientras el FBI lo investiga. La película retrata un estilo de vida desenfrenado y la caída de un imperio construido sobre la avaricia.",
+      "en": "Based on the true story of Jordan Belfort, an ambitious stockbroker who becomes a trading tycoon in the 1990s. As his life fills with excess, fraud, and corruption, Belfort faces the consequences of his actions while being investigated by the FBI. The film portrays a reckless lifestyle and the fall of an empire built on greed."
+    },
     "plataforma": null,
     "puntuacion": 9,
     "temporadas": 0
   },
   {
     "id": 7,
-    "titulo": "Joker",
+    "titulo": {
+      "es": "Joker",
+      "en": "Joker"
+    },
     "director": "Todd Phillips",
     "estreno": "2019",
     "imagen": "/Imagen/peliculas/Joker.jpg",
-    "sinopsis": "Este aclamado filme explora el origen de Arthur Fleck, un hombre con problemas mentales que trabaja como payaso y aspira a ser comediante. En una sociedad que lo margina, Fleck se transforma en el Joker, un criminal que siembra el caos en Gotham City. La película ofrece una mirada profunda y oscura a la psicología del villano más icónico de DC.",
+    "sinopsis": {
+      "es": "Este aclamado filme explora el origen de Arthur Fleck, un hombre con problemas mentales que trabaja como payaso y aspira a ser comediante. En una sociedad que lo margina, Fleck se transforma en el Joker, un criminal que siembra el caos en Gotham City. La película ofrece una mirada profunda y oscura a la psicología del villano más icónico de DC.",
+      "en": "This acclaimed film explores the origin of Arthur Fleck, a mentally troubled man who works as a clown and dreams of becoming a comedian. In a society that marginalizes him, Fleck transforms into the Joker, a criminal who unleashes chaos in Gotham City. The film offers a deep and dark look into the psychology of DC's most iconic villain."
+    },
     "plataforma": null,
     "puntuacion": 7,
     "temporadas": 0
   },
   {
     "id": 8,
-    "titulo": "300",
+    "titulo": {
+      "es": "300",
+      "en": "300"
+    },
     "director": "Zack Snyder",
     "estreno": "2006",
     "imagen": "/Imagen/peliculas/300.jpg",
-    "sinopsis": "Basada en la historia de la Batalla de las Termópilas, esta película narra la resistencia heroica del rey Leónidas y sus 300 espartanos frente a la inmensa fuerza del ejército persa liderado por Jerjes. A pesar de las abrumadoras probabilidades, los espartanos luchan con valentía, simbolizando el sacrificio y el honor en la guerra.",
+    "sinopsis": {
+      "es": "Basada en la historia de la Batalla de las Termópilas, esta película narra la resistencia heroica del rey Leónidas y sus 300 espartanos frente a la inmensa fuerza del ejército persa liderado por Jerjes. A pesar de las abrumadoras probabilidades, los espartanos luchan con valentía, simbolizando el sacrificio y el honor en la guerra.",
+      "en": "Based on the story of the Battle of Thermopylae, this film tells the heroic resistance of King Leonidas and his 300 Spartans against the overwhelming Persian army led by Xerxes. Despite impossible odds, the Spartans fight with courage, symbolizing sacrifice and honor in war."
+    },
     "plataforma": null,
     "puntuacion": 8.6,
     "temporadas": 0
