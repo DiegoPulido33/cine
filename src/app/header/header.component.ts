@@ -22,7 +22,7 @@ export class HeaderComponent {
     const tr = this.t();
 
     return [
-      { texto: tr.nav.home, ruta: '/inicio' },
+      { texto: tr.nav.home, ruta: '/' },
       { texto: tr.nav.movies, ruta: '/peliculas' },
       { texto: tr.nav.series, ruta: '/series' },
     ];

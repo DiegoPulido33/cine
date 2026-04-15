@@ -1,72 +1,100 @@
-# Cine10de10 — Movie & Series Showcase
+# Cines DPR — Angular Media Discovery Platform
 
-A personal academic project originally built during my Web Application Development degree and later **recovered + modernized to Angular 21** as part of my engineering portfolio.
+A premium **Angular-based movie & TV series showcase platform** designed as a portfolio-grade frontend product.
 
-The application simulates a **cinema-style showcase platform** where users can browse curated movies and TV series, flip cards for interactive previews, and navigate to detailed content pages with descriptions, directors, ratings, and release information.
+Originally born as an early academic cinema project, this application was fully **re-engineered into a modern multilingual media discovery experience**, combining product-oriented UI design, responsive architecture, scalable data modeling, and polished cinematic branding.
 
-This project is especially meaningful as it reflects both:
-- my early frontend foundations
-- my current ability to **recover legacy codebases and migrate them to modern Angular architecture**
+**Live Demo:** https://cinedpr.vercel.app
 
 ---
 
-## Project Overview
+## Overview
 
-Main features included in the app:
+Cines DPR simulates a modern **streaming / media discovery platform**, allowing users to explore curated movies and series through an immersive dark UI inspired by real-world entertainment products.
 
-- Movie showcase
-- TV series showcase
-- Interactive flip-card UI
-- Detail pages by dynamic route
-- Routing with Angular Router
-- Data service layer with observables
-- Responsive visual layout
-- Standalone Angular components
-- SSR-compatible modern Angular setup
+The application was redesigned to feel like a **deployable SaaS-style frontend product**, rather than a classroom exercise.
+
+Key user experience goals:
+- cinematic premium dark design
+- multilingual support (ES / EN)
+- polished mobile navigation
+- interactive card exploration
+- rich detail pages
+- scalable route-based architecture
+
+---
+
+## Core Features
+
+- Premium dark UI inspired by streaming platforms
+- Fully responsive layout
+- Mobile hamburger navigation
+- ES / EN language toggle
+- Dynamic bilingual movie & series catalog
+- Interactive flip-card animations
+- Detail pages with dynamic routes
+- Legal pages (About, Contact, Privacy, Terms)
+- Reusable Angular standalone components
+- Route-driven navigation architecture
+- Portfolio-ready product polish
 
 ---
 
 ## Tech Stack
 
-- Angular 21
+- Angular
 - TypeScript
-- RxJS
 - Angular Router
-- Angular Standalone Components
-- CSS
-- Node.js
+- Standalone Components
+- Signals-based i18n architecture
+- CSS3
+- Responsive Design
+- Vercel Deployment
 
 ---
 
-## Why this project matters
+## Engineering Highlights
 
-This repository is part of my portfolio because it demonstrates an interesting engineering exercise:
+This project demonstrates several frontend engineering capabilities.
 
-> Recovering a 2-year-old academic Angular project from partial source files, rebuilding the missing project structure, and migrating it to the latest Angular standalone architecture.
+### UI Modernization
+A legacy academic UI was transformed into a **production-style cinematic interface** with:
+- premium dark visual system
+- branding-driven color palette
+- cinematic red highlights
+- advanced hover states
+- premium shadows and depth
+- polished mobile UX
 
-The recovery process involved:
+### Internationalization Strategy
+The catalog data was migrated into a **scalable bilingual object structure**, enabling:
 
-- rebuilding the Angular root structure
-- restoring missing configuration files
-- migrating from legacy module patterns
-- adapting components to standalone architecture
-- fixing SSR bootstrap issues
-- updating routing compatibility
-- resolving strict TypeScript template issues
-- preparing the codebase for modern GitHub portfolio presentation
+```ts
+titulo: {
+  es: 'Interstellar',
+  en: 'Interstellar'
+}
+```
 
-This turns a student project into a **real-world legacy modernization case study**.
+This mirrors real-world product data modeling practices.
+
+### Responsive Product Thinking
+The app includes:
+- mobile-first hamburger navigation
+- adaptive grids
+- responsive detail layouts
+- optimized visual hierarchy across devices
 
 ---
 
-## Run locally
+## Run Locally
 
 ```bash
 npm install
 npm start
 ```
 
-Then open:
+Open:
 
 ```text
 http://localhost:4200
@@ -74,7 +102,7 @@ http://localhost:4200
 
 ---
 
-## Build
+## Production Build
 
 ```bash
 npm run build
@@ -82,19 +110,22 @@ npm run build
 
 ---
 
-## Portfolio context
+## Why This Project Matters
 
-This project is showcased as part of my immersive software engineering portfolio, highlighting:
+Cines DPR is included in my portfolio as a **frontend refactor case study**.
 
-- frontend foundations
-- UI interaction design
-- Angular architecture evolution
-- legacy modernization skills
-- engineering storytelling
+It showcases my ability to:
+- recover legacy frontend projects
+- redesign UI systems with product thinking
+- apply scalable i18n patterns
+- transform student foundations into portfolio-grade deliverables
+- ship polished deployable interfaces
+
+The result is a **small but high-quality Angular product showcase** that demonstrates both engineering execution and visual product maturity.
 
 ---
 
 ## Author
 
 **Diego Pulido Rivero**  
-Software Engineer focused on product thinking, immersive interfaces, frontend architecture, and modern full-stack systems.
+Software Engineer focused on frontend architecture, product storytelling, immersive interfaces, and modern full-stack systems.

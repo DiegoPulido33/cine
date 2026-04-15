@@ -11,10 +11,10 @@ import { PrivacyPolicyComponent } from './componente/privacy-policy/privacy-poli
 import { TermsComponent } from './componente/terms/terms.component';
 
 export const routes: Routes = [
-  { path: 'peliculas', component: PeliculasComponent },
-  { path: '', redirectTo: '/inicio', pathMatch: 'full' },
-  { path: 'series', component: SeriesComponent },
+  { path: '', component: InicioComponent, pathMatch: 'full' },
   { path: 'inicio', component: InicioComponent },
+  { path: 'peliculas', component: PeliculasComponent },
+  { path: 'series', component: SeriesComponent },
   { path: 'contenido-pelicula/:id', component: ContenidoPeliculaComponent },
   { path: 'contenido-serie/:id', component: ContenidoSerieComponent },
   { path: 'about', component: AboutComponent },
@@ -22,7 +22,6 @@ export const routes: Routes = [
   { path: 'privacy-policy', component: PrivacyPolicyComponent },
   { path: 'terms', component: TermsComponent },
 ];
-
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule],

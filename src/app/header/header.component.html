@@ -1,6 +1,6 @@
 <header class="site-header">
   <div class="site-header__brand">
-    <a routerLink="/inicio" class="site-header__logo-link" (click)="closeMobileMenu()">
+    <a routerLink="/" class="site-header__logo-link" (click)="closeMobileMenu()">
       <img
         src="/logos/cinesDPR.png"
         alt="Cines DPR"
@@ -15,7 +15,7 @@
         *ngFor="let item of opciones()"
         [routerLink]="item.ruta"
         routerLinkActive="active"
-        [routerLinkActiveOptions]="{ exact: item.ruta === '/inicio' }"
+        [routerLinkActiveOptions]="{ exact: item.ruta === '/' }"
         class="menu-item"
       >
         {{ item.texto }}
@@ -52,7 +52,7 @@
           *ngFor="let item of opciones()"
           [routerLink]="item.ruta"
           routerLinkActive="active"
-          [routerLinkActiveOptions]="{ exact: item.ruta === '/inicio' }"
+          [routerLinkActiveOptions]="{ exact: item.ruta === '/' }"
           class="mobile-menu-item"
           (click)="closeMobileMenu()"
         >
