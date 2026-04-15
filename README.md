@@ -4,7 +4,7 @@ A premium **Angular-based movie & TV series showcase platform** designed as a po
 
 Originally born as an early academic cinema project, this application was fully **re-engineered into a modern multilingual media discovery experience**, combining product-oriented UI design, responsive architecture, scalable data modeling, and polished cinematic branding.
 
-**Live Demo:** https://cinedpr.vercel.app
+**Live Demo:** https://cinesdpr.vercel.app
 
 ---
 
